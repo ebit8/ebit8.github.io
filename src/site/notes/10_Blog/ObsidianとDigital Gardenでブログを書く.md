@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/10_Blog/ObsidianとDigital Gardenでブログを書く/","tags":["ブログ","obsidian"],"created":"2026-01-01T15:06:53.534+09:00","updated":"2026-01-02T10:52:46.397+09:00"}
+{"dg-publish":true,"permalink":"/10_Blog/ObsidianとDigital Gardenでブログを書く/","tags":["ブログ","obsidian"],"created":"2026-01-01T15:06:53.534+09:00","updated":"2026-01-02T11:31:39.813+09:00"}
 ---
 
 ---
@@ -8,11 +8,11 @@
 - はてなブログはモバイルデバイスでの執筆に向いていない
 - 普段使っているObsidianからシームレスにブログを投稿したい（はてなブログへのコピペが面倒）
 
-色々調べてみたところ、[Digital Garden]([https://dg-docs.ole.dev](https://dg-docs.ole.dev/))というObsidianで書いたものをそのまま公開できるプラグインが見つかった。~~ホスティングにGithub Pages、デプロイにVercelを使うらしいので制限はあるものの、執筆頻度が低い自分には関係ないだろう。~~
+色々調べてみたところ、[Digital Garden](https://dg-docs.ole.dev/)というObsidianで書いたものをそのまま公開できるプラグインが見つかった。~~ホスティングにGithub Pages、デプロイにVercelを使うらしいので制限はあるものの、執筆頻度が低い自分には関係ないだろう。~~
 
 ## Digital Gardenの導入
 ~~基本的には[Getting Started](https://dg-docs.ole.dev/getting-started/01-getting-started/)の通りで問題ない。~~
-**デプロイにVercelを使う方法は[[#追記（気になる点）]]に書いている通り、すぐに回数制限に引っかかる可能性がある。そのため、[Github Actionを使う方法](https://iondrive.cc/guides/digitalgarden/)に従う方がいいと思われる。**
+**デプロイにVercelを使う方法は追記に書いている通り、すぐに回数制限に引っかかる可能性がある。そのため、[Github Actionを使う方法](https://iondrive.cc/guides/digitalgarden/)に従う方がいいと思われる。**
 
 一つ注意点があるとするなら、デフォルトで有効になっている「Slugify Note URL」を無効にすること。ノートのタイトルがページURLに使用されるのだが、Slugify Note URLを無効にしておかないと日本語部分が消えてしまう。
 
@@ -23,3 +23,4 @@ Obsidianで書いたノートをワンアクションで公開できるという
 - デプロイに少し時間がかかるので、更新が即座に反映されるわけではない。
 - 最終的な見た目はデプロイが完了してからでないとわからない。とはいえ、基本のレイアウトはObsidian上と同じなのでそれほど問題ではない。
 - 1ファイルごとにコミットが発生する。例えば、10枚の画像を含むファイルを非公開にすると、各変更ごとにコミットされて、デプロイも10回走る。そのためVercelのデプロイ回数上限にすぐにひっかかって更新できなくなった（致命的）。Github Actionsは回数による制限ではなく時間による制限なので、現在は[Github Actionを使う方法](https://iondrive.cc/guides/digitalgarden/)に切り替えている。
+- ページ内見出しへのリンクが機能しなくなる？[[#はてなブログからの移行]]
