@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/10_Blog/ObsidianとDigital Gardenでブログを書く/","created":"2026-01-01T15:06:53.534+09:00","updated":"2026-01-01T21:49:03.773+09:00"}
+{"dg-publish":true,"permalink":"/10_Blog/ObsidianとDigital Gardenでブログを書く/","tags":["ブログ","obsidian"],"created":"2026-01-01T15:06:53.534+09:00","updated":"2026-01-02T10:52:46.397+09:00"}
 ---
 
 ---
@@ -8,7 +8,7 @@
 - はてなブログはモバイルデバイスでの執筆に向いていない
 - 普段使っているObsidianからシームレスにブログを投稿したい（はてなブログへのコピペが面倒）
 
-色々調べてみたところ、[Digital Garden]([https://dg-docs.ole.dev](https://dg-docs.ole.dev/))というObsidianで書いたものをそのまま公開できるプラグインが見つかった。ホスティングにGithub Pages、デプロイにVercelを使うらしいので制限はあるものの、執筆頻度が低い自分には関係ないだろう。
+色々調べてみたところ、[Digital Garden]([https://dg-docs.ole.dev](https://dg-docs.ole.dev/))というObsidianで書いたものをそのまま公開できるプラグインが見つかった。~~ホスティングにGithub Pages、デプロイにVercelを使うらしいので制限はあるものの、執筆頻度が低い自分には関係ないだろう。~~
 
 ## Digital Gardenの導入
 ~~基本的には[Getting Started](https://dg-docs.ole.dev/getting-started/01-getting-started/)の通りで問題ない。~~
