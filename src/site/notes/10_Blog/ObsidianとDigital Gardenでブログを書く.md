@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/10_Blog/ObsidianとDigital Gardenでブログを書く/","tags":["ブログ","obsidian"],"created":"2026-01-01T15:06:53.534+09:00","updated":"2026-01-02T11:45:47.546+09:00"}
+{"dg-publish":true,"permalink":"/10_Blog/ObsidianとDigital Gardenでブログを書く/","tags":["obsidian"],"created":"2026-01-01T15:06:53.534+09:00","updated":"2026-01-02T15:11:30.598+09:00"}
 ---
 
 ---
