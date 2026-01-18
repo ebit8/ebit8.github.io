@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/10_Blog/Ebit Blog/","pinned":true,"tags":["gardenEntry"],"created":"2026-01-01T12:44:14.044+09:00","updated":"2026-01-02T15:21:19.931+09:00"}
+{"dg-publish":true,"permalink":"/10-blog/ebit-blog/","pinned":true,"tags":["gardenEntry"],"created":"2026-01-02T15:51:30.000+09:00","updated":"2026-01-03T19:15:18.300+09:00"}
 ---
 
 
